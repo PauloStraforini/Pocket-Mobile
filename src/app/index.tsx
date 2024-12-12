@@ -1,3 +1,4 @@
+import { Welcome } from '@/components/welcome'
 import { View, Text } from 'react-native'
 
 export default function Index() {
@@ -5,10 +6,11 @@ export default function Index() {
     <View 
     style={{
     flex: 1, 
-    display: "flex",
+    justifyContent: "center",
     alignItems: "center", }}
     >
-     <Text style={{ fontSize: 22 }}>world!</Text>
+     <Text style={{ fontSize: 22 }}>Hello Pauladas !</Text>
+     <Welcome />
     </View>
   )
 } 
